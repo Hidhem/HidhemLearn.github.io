@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #052d23;
+}
+header{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    color: #daff99;
+    margin: 0 0 0 2em;
+    font-weight: 600;
+    font-size: 30px;
+}
+.logo:hover{
+    cursor: pointer;
+}
+.nav ul{
+    display: flex;
+    margin: 10px 0 0 0;
+    gap: 40px;
+    color: rgb(185, 185, 185);
+    list-style: none;
+}
+.nav li:hover{
+    cursor: pointer;
+    color: #daff99;
+}
+.register{
+    color: white;
+    border: 1px solid white;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.register:hover{
+    cursor: pointer;
+    background: #daff99;
+    color:#052d23;
+    transition: 0.5s;
+}
+main{
+    width: 100lv;
+    height: 90vh;
+}
+.hero{
+    height: 90%;
+    gap: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    margin: 50px 10px 0px 10px;
+    color: white;
+    font-size: 7em;
+    font-weight: 500;
+    text-align: center;
+}
+main p{
+    color:#95bb72;
+    font-size: 25px;
+}
+.hero button{
+    margin: 10px 10px 30px 10px;
+    padding: 25px 50px;
+    border-radius:50px;
+    border:1px solid #95bb72 ;
+    background: #ffffff;
+    color: #052d23;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.hero button:hover{
+    background:#95bb72;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.hero button:last-child{
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: 1px solid #224b33;
+}
+.hero button:last-child:hover{
+    background: #224b33;
+    transition: 0.5s;
+}
+.brand{
+    background: gray;
+    width: 100em;
+    height: 100px;
+}
+.brand__tittle{
+    color: rgb(185, 185, 185);
+}
+.main__video{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+video{
+    border-radius: 50px;
+    max-width: 95%;
+}
